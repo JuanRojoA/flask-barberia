@@ -1,0 +1,80 @@
+<!-- Extend base template -->
+{% extends 'base.html' %}
+
+<!-- Define title -->
+{% block title %} Index {% endblock %}
+
+<!-- Define content under navbar -->
+{% block content %}
+<section class="main-header">
+  <div class="header-text-container">
+    <p>El estilo que siempre haz querido, al alcance de tus manos.</p>
+    <a href="#servicios" class="button">Conoce nuestros servicios</a>
+  </div>
+</section>
+
+<section class="about-us-section">
+  <div class="about-us-img-container">
+    <img src="https://picsum.photos/1920/1080" alt="" />
+  </div>
+  <div class="about-us-desc-container">
+    <h2>¿Quienes somos?</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius
+      excepturi rem nihil quas id error deleniti minima! Amet dolorum error
+      alias, cupiditate quam ex dolore quae deserunt ipsam iusto? Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Quod ea adipisci laborum hic
+      quis quasi veniam accusantium consequuntur, ipsum voluptatem reiciendis
+      illum animi aspernatur minus facere numquam sed iste asperiores!
+    </p>
+  </div>
+</section>
+
+<main class="services-section">
+  <h2>Conoce nuestros increibles servicios</h2>
+  <div class="services-container">
+    <div class="service">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Corte</h3>
+    </div>
+    <div class="service">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Barba</h3>
+    </div>
+    <div class="service">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Cejas</h3>
+    </div>
+  </div>
+  <p>¿Lo mejor? Puedes combinarlos como quieres en un solo servicio.</p>
+  <a href="#servicios" class="button">Reserva</a>
+</main>
+
+<section class="products-section">
+  <h2>Productos</h2>
+  <p>Compra productos nacionales e importados de la mejor calidad.</p>
+  <div class="products-container">
+    <div class="products">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Producto 1</h3>
+      <p>$precio</p>
+    </div>
+    <div class="products">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Producto 2</h3>
+      <p>$precio</p>
+    </div>
+    <div class="products">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Producto 3</h3>
+      <p>$precio</p>
+    </div>
+    <div class="products">
+      <img src="https://picsum.photos/1920/1080" alt="" />
+      <h3>Producto 4</h3>
+      <p>$precio</p>
+    </div>
+  </div>
+  <a href="#servicios" class="button">Comprar productos</a>
+</section>
+{% endblock %}
